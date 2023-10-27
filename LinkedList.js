@@ -14,7 +14,7 @@ class LinkedList {
         }
     }
 
-    addToTail() {
+    addToTail(data) {
         let lastNode = this.head;
         if(!lastNode) {
             this.head = new Node(data);
